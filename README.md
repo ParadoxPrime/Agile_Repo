@@ -1,4 +1,7 @@
-This is a demo website created in Agile project by Liam Jensen
+This is a demo website created in Agile Projects.
 
-
-wham blam edited
+Contributors:
+-Liam
+-Maraea
+-Kyle
+-Luke
