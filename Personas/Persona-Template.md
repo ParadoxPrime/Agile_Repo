@@ -41,11 +41,4 @@
 
 - [Comfort with technology: e.g., Low / Medium / High]  
 - [Devices used regularly]  
-- [Typical tech behaviors (apps, online shopping, social media)]  
-
----
-
-## Representative Quote
-
-> "[A short quotation that captures the persona's attitude or priorities]"
-
+- [Typical tech behaviors (apps, online shopping, social media)]
