@@ -12,7 +12,7 @@
 
 **Sponsor:** John Jamieson\
 **Name of Group:** Freeza\
-**Group Lead:** Kyle
+**Group Lead:** Kyle <br>
 **Note taker:** Maraea
 
 **Attendees:** Maraea, Kyle, Liam, Luke\
