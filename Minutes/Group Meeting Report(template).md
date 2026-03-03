@@ -1,153 +1,70 @@
-# Practical Project -- Iteration 1
+# Practical Project - Iteration 1 <!-- <<< Increment with each iteration -->
 
-## Group Meeting Report
+# Group Meeting Report 1 <!-- <<< Increment with each meeting-->
 
-> **Note:**\
-> 1. Please make sure you complete this report related to each meeting
-> for your Practical Project -- Iteration 1 below.\
-> 2. Once completed, convert this content to `readme.md` (GitHub).
-
-------------------------------------------------------------------------
+---
 
 ## Notice of Meeting and Agenda
 
-**Date:**\
-**Time:**\
+**Date:**
+**Time:**
 **Location:**
 
-**Sponsor:**\
-John Jamieson
+**Sponsor:** John Jamieson\
+**Name of Group:** Freeza\
+**Group Lead:**
+**Note taker:**
 
-**Name of Group:**\
-e.g. Frizza
+**Attendees:**<br> <!-- line break -->
+**Absent:**
 
-**Group Lead:**\
-Enter meeting facilitator here
-
-**Note taker:**\
-Enter note taker here
-
-**Attendees:**\
-Enter names of attendees here
-
-**Absent:**\
-Enter names of those absent here
-
-**Please bring:**\
-Laptop
-
-**Agenda items:**\
-- Enter Agenda Item here\
-- Enter Agenda Item here
+**Please bring:**
 
 ------------------------------------------------------------------------
 
-## Minutes
+## Agenda Items
 
-### Agenda Item 1
+### Agenda Item 1:
 
-**Topic:**\
-Enter agenda item here
+**Presenter:**
 
-**Presenter:**\
-Enter presenter here
+**Discussion:**
 
-**Discussion:**\
-To get started right away, just tap any placeholder text (such as this)
-and start typing to replace it with your own.
+**Conclusions:**
 
-**Conclusions:**\
-Enter conclusions here.
+#### Action 
 
-#### Action Items
 
-  -----------------------------------------------------------------------
-  Action Item           Person Responsible               Deadline
-  --------------------- -------------------------------- ----------------
-  Enter action items    Enter person responsible here    Enter deadline
-  here                                                   here
+| Action item | Person Responsible | Deadline |
+|---|---|---|
+| Task1 | Person1 | Date1 |
+| Task2 | Person2 | Date2 |
 
-  Enter action items    Enter person responsible here    Enter deadline
-  here                                                   here
+---
 
-  Enter action items    Enter person responsible here    Enter deadline
-  here                                                   here
-  -----------------------------------------------------------------------
+### Agenda Item 2:
 
-------------------------------------------------------------------------
+**Presenter:**
 
-### Agenda Item 2
+**Discussion:**
 
-**Topic:**\
-Enter agenda item here
+**Conclusions:**
 
-**Presenter:**\
-Enter presenter here
+#### Action 
 
-**Discussion:**\
-To get started right away, just tap any placeholder text (such as this)
-and start typing to replace it with your own.
+| Action item | Person Responsible | Deadline |
+|---|---|---|
+| Task1 | Person1 | Date1 |
+| Task2 | Person2 | Date2 |
 
-**Conclusions:**\
-Enter conclusions here.
-
-#### Action Items
-
-  -----------------------------------------------------------------------
-  Action Item           Person Responsible               Deadline
-  --------------------- -------------------------------- ----------------
-  Enter action items    Enter person responsible here    Enter deadline
-  here                                                   here
-
-  Enter action items    Enter person responsible here    Enter deadline
-  here                                                   here
-
-  Enter action items    Enter person responsible here    Enter deadline
-  here                                                   here
-  -----------------------------------------------------------------------
-
-------------------------------------------------------------------------
-
-### Agenda Item 3
-
-**Topic:**\
-Enter agenda item here
-
-**Presenter:**\
-Enter presenter here
-
-**Discussion:**\
-To get started right away, just tap any placeholder text (such as this)
-and start typing to replace it with your own.
-
-**Conclusions:**\
-Enter conclusions here.
-
-#### Action Items
-
-  -----------------------------------------------------------------------
-  Action Item           Person Responsible               Deadline
-  --------------------- -------------------------------- ----------------
-  Enter action items    Enter person responsible here    Enter deadline
-  here                                                   here
-
-  Enter action items    Enter person responsible here    Enter deadline
-  here                                                   here
-
-  Enter action items    Enter person responsible here    Enter deadline
-  here                                                   here
-  -----------------------------------------------------------------------
-
-------------------------------------------------------------------------
+---
 
 ## Other Information
 
-**Resources:**\
-Enter resources here.
+**Resources:** N/A <!--any good resources or websites we discussed?-->
 
-**Date of next meeting:**\
-Enter any special notes here.
+**Date of next meeting:** TBD
 
 ------------------------------------------------------------------------
 
-*ITPM5.248 Agile Projects -- Minutes of Meeting*
+ITPM5.248 Agile Projects - Kyle, Liam, Luke, Maraea 
