@@ -63,50 +63,36 @@ use a .ODS to .md converter to convert the ods file to markdown and upload it to
 #### Action Items
 
   -----------------------------------------------------------------------
-  Action Item           Person Responsible               Deadline
-  --------------------- -------------------------------- ----------------
-  Enter action items    Enter person responsible here    Enter deadline
-  Convert the file type     Kyle                           06/03/2026
-
-  Enter action items    Enter person responsible here    Enter deadline
-  upload new file to gitbuh       Kyle                      07/03/2026
-
-  Enter action items    Enter person responsible here    Enter deadline
-  ensure it's readable within github        Kyle           08/03/2026
+  |Action Item |          Person Responsible     |          Deadline|
+  |---|---|---|
+  |Convert the file type| Kyle|06/03/2026|
+  |upload new file to github|Kyle|07/03/2026|
+  |ensure it's readable within github|Kyle| 08/03/2026|
   -----------------------------------------------------------------------
 
 ------------------------------------------------------------------------
 
 ### Agenda Item 2
 
-**Topic:**\
+**Topic:**
 adding a kanban to the git repo
 
-**Presenter:**\
+**Presenter:**
 Liam
 
-**Discussion:**\
+**Discussion:**
 Adding kanban to the github repo to help with following project timeline
 
-**Conclusions:**\
+**Conclusions:**
 having a kanban timeline added to the github repo
 
 #### Action Items
 
-  -----------------------------------------------------------------------
-  Action Item           Person Responsible               Deadline
-  --------------------- -------------------------------- ----------------
-  Enter action items    Enter person responsible here    Enter deadline
-  creating a kanban           Liam                          10/03/2026
-
-  Enter action items    Enter person responsible here    Enter deadline
-  Linking kanban to git        Liam                         12/03/2026
-
-  Enter action items    Enter person responsible here    Enter deadline
-  ensuring kanban is viewable  Liam                          14/03/2026
-  -----------------------------------------------------------------------
-
-------------------------------------------------------------------------
+  |Action Item|           Person Responsible|               Deadline|
+  |---|---|---|
+  |creating a kanban |Liam  |                        10/03/2026|
+  |Linking kanban to git  |      Liam               |          12/03/2026|
+  |ensuring kanban is viewable | Liam   |                       14/03/2026|
 
 ### Agenda Item 3
 
@@ -124,28 +110,21 @@ having all of our needed personas
 
 #### Action Items
 
-  -----------------------------------------------------------------------
-  Action Item           Person Responsible               Deadline
-  --------------------- -------------------------------- ----------------
-  Enter action items    Enter person responsible here    Enter deadline
-  buyyer personas                   Luke/Liam                18/03/2026
+  |Action Item     |      Person Responsible     |          Deadline|
+  |---|---|---|
+  |buyer personas   |                Luke/Liam      |         18/03/2026|
+  |User personas   |             Kyle/Maraea       |           11/03/2026|
+  |review personas    |     kyle/maraea/liam/luke    |         25/03/2026|
 
-  Enter action items    Enter person responsible here    Enter deadline
-  User personas                Kyle/Maraea                  11/03/2026
 
-  Enter action items    Enter person responsible here    Enter deadline
-  review personas         kyle/maraea/liam/luke             25/03/2026
-  -----------------------------------------------------------------------
-
-------------------------------------------------------------------------
+---
 
 ## Other Information
 
-**Resources:**\
+**Resources:**
 Enter resources here.
 
-**Date of next meeting:**\ 11/03/2026
-Enter any special notes here.
+**Date of next meeting:** 11/03/2026
 
 ------------------------------------------------------------------------
 
