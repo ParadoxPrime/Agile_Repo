@@ -1,10 +1,11 @@
 | Stakeholder Name       | Role                                      | Category | Power/Influence | Interest | Expectation              | Communication  | Contact                          |
 |------------------------|-------------------------------------------|----------|----------------|----------|--------------------------|---------------|----------------------------------|
-| John Jamerson          | Sponsor                                   | Internal | Strong         | Strong   | Bi-weekly face-to-face   | Email         | jjamieson@eit.ac.nz              |
-| Kyle Leitch            | Project Manager                           | Internal | Neutral        | Strong   | Weekly Meeting           | Team Workspace| leitck1@student.eit.ac.nz        |
-| Liam                   | Project Manager                           | Internal | Neutral        | Strong   | Weekly Meeting           | Team Workspace| jensel4@student.eit.ac.nz        |
-| Maraea                 | Project Manager                           | Internal | Neutral        | Strong   | Weekly Meetings          | Team Workspace| DEWESM5@student.eit.ac.nz        |
-| Luke                   | Project Manager                           | Internal | Weak           | Strong   | Weekly Meeting           | Team Workspace| SMILEL5@student.eit.ac.nz        |
+| John Jamerson          | Sponsor                                   | Internal | Strong         | Weak     | Bi-weekly face-to-face   | Email         | jjamieson@eit.ac.nz              |
+| Kyle Leitch            | Project Manager                           | Internal | Strong         | Strong   | Weekly Meeting           | Team Workspace| leitck1@student.eit.ac.nz        |
+| Liam                   | Project Manager                           | Internal | Strong         | Strong   | Weekly Meeting           | Team Workspace| jensel4@student.eit.ac.nz        |
+| Maraea                 | Project Manager                           | Internal | Strong         | Strong   | Weekly Meetings          | Team Workspace| DEWESM5@student.eit.ac.nz        |
+| Luke                   | Project Manager                           | Internal | Strong         | Strong   | Weekly Meeting           | Team Workspace| SMILEL5@student.eit.ac.nz        |
+| **fake people below**  |               NA                          |   NA     |NA              |NA        | NA                       | NA            | NA                               |
 | Mai Landau             | Graphic Designer                          | Internal | Weak           | Weak     | Weekly Reports           | Email         | mai.landau@example.com           |
 | Nomthandazo Kita       | Web Developer (Back-end)                  | Internal | Weak           | Weak     | Weekly Reports           | Email         | nomthandazo.kita@example.com     |
 | Oinatz Neil            | Web Developer (Front-end)                 | Internal | Weak           | Weak     | Weekly Reports           | Email         | oinatz.neil@example.net          |
