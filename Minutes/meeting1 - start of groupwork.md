@@ -59,8 +59,8 @@ everyone: data corruption - avoid members pushing commits at the same time, let 
 - Personas: What kinda people would we like to attract? What kinda e-commerce website DO we have?: Community marketplace website?
 - Discussing the stakeholders: Sponsors, person hiring us, contract development team? - Establishing john as our sponsor: John: high interest (decision maker), low power...
 
-- Potential target audience may include: Middle aged mothers, Scalpers: high interest, low power
-thrifters: low money
+- Potential target audience may include: Middle aged mothers, Scalpers: high interest, low power,
+Thrifters: low money...
 
 **Conclusions:**
 
