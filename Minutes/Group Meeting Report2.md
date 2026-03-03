@@ -12,8 +12,8 @@
 ## Notice of Meeting and Agenda
 
 **Date:**\ 04/03/2026
-**Time:**\
-**Location:**\ Discord?
+**Time:**\ 11:14
+**Location:**\ Discord/in class
 
 **Sponsor:**\
 John Jamieson
@@ -40,8 +40,8 @@ Laptop
 
 **Agenda items:**\
 - Stakeholder Regisitery file fix
-- Enter Agenda Item here
-
+- add kanban to the git repo
+- Personas to be added
 ------------------------------------------------------------------------
 
 ## Minutes
@@ -80,17 +80,16 @@ use a .ODS to .md converter to convert the ods file to markdown and upload it to
 ### Agenda Item 2
 
 **Topic:**\
-Enter agenda item here
+adding a kanban to the git repo
 
 **Presenter:**\
-Enter presenter here
+Liam
 
 **Discussion:**\
-To get started right away, just tap any placeholder text (such as this)
-and start typing to replace it with your own.
+Adding kanban to the github repo to help with following project timeline
 
 **Conclusions:**\
-Enter conclusions here.
+having a kanban timeline added to the github repo
 
 #### Action Items
 
@@ -98,13 +97,13 @@ Enter conclusions here.
   Action Item           Person Responsible               Deadline
   --------------------- -------------------------------- ----------------
   Enter action items    Enter person responsible here    Enter deadline
-  here                                                   here
+  creating a kanban           Liam                          10/03/2026
 
   Enter action items    Enter person responsible here    Enter deadline
-  here                                                   here
+  Linking kanban to git        Liam                         12/03/2026
 
   Enter action items    Enter person responsible here    Enter deadline
-  here                                                   here
+  ensuring kanban is viewable  Liam                          14/03/2026
   -----------------------------------------------------------------------
 
 ------------------------------------------------------------------------
@@ -112,17 +111,16 @@ Enter conclusions here.
 ### Agenda Item 3
 
 **Topic:**\
-Enter agenda item here
+personas
 
 **Presenter:**\
-Enter presenter here
+Maraea
 
 **Discussion:**\
-To get started right away, just tap any placeholder text (such as this)
-and start typing to replace it with your own.
+discussioning how we should do personas and who should do most of them.
 
 **Conclusions:**\
-Enter conclusions here.
+having all of our needed personas
 
 #### Action Items
 
@@ -130,13 +128,13 @@ Enter conclusions here.
   Action Item           Person Responsible               Deadline
   --------------------- -------------------------------- ----------------
   Enter action items    Enter person responsible here    Enter deadline
-  here                                                   here
+  buyyer personas                   Luke/Liam                18/03/2026
 
   Enter action items    Enter person responsible here    Enter deadline
-  here                                                   here
+  User personas                Kyle/Maraea                  11/03/2026
 
   Enter action items    Enter person responsible here    Enter deadline
-  here                                                   here
+  review personas         kyle/maraea/liam/luke             25/03/2026
   -----------------------------------------------------------------------
 
 ------------------------------------------------------------------------
@@ -146,7 +144,7 @@ Enter conclusions here.
 **Resources:**\
 Enter resources here.
 
-**Date of next meeting:**\
+**Date of next meeting:**\ 11/03/2026
 Enter any special notes here.
 
 ------------------------------------------------------------------------
