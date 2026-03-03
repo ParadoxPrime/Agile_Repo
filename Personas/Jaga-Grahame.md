@@ -1,6 +1,6 @@
 # Persona Profile
 
-![Persona Image](persona-image.png)  
+![Persona Image](jaga-image.png)  
 *Figure 1: Generated with Gemini*
 
 ---

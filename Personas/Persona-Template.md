@@ -1,6 +1,6 @@
 # Persona Profile
 
-![Persona Image](persona-image.png)  
+![Persona Image](placeholder.png)  
 *Figure 1: Add image source*
 
 ---
