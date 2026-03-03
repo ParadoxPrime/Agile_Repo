@@ -10,9 +10,9 @@
 **Time:**
 **Location:**
 
-**Sponsor:** John Jamieson\
-**Name of Group:** Freeza\
-**Group Lead:**
+**Sponsor:** John Jamieson
+**Team Freeza**
+**Group Lead:**<br>
 **Note taker:**
 
 **Attendees:**<br> <!-- line break -->
