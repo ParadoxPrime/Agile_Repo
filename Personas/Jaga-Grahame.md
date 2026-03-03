@@ -1,6 +1,6 @@
 # Persona Profile
 
-![Persona Image](persona-image.png)  
+![Persona Image](jaga-image.png)  
 *Figure 1: Generated with Gemini*
 
 ---
@@ -27,3 +27,25 @@
 - Slow loading speeds  
 - Overpriced goods  
 - Looking for hours for an item  
+
+---
+
+## Motivations
+
+- to save money and potentialy to raise money via selling goods
+- saving money or generating
+
+---
+
+## Tech Comfort
+
+- Medium
+- Phone, Work Computer, Childs Tablet
+- Facebook, Facebook marketplace, PBtech, school apps 
+
+---
+
+## Representative Quote
+
+> "[A short quotation that captures the persona's attitude or priorities]"
+
