@@ -45,7 +45,3 @@
 
 ---
 
-## Representative Quote
-
-> "[A short quotation that captures the persona's attitude or priorities]"
-
