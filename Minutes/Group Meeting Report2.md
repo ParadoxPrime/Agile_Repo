@@ -13,7 +13,7 @@
 
 **Date:**\ 04/03/2026
 **Time:**\
-**Location:**\ 
+**Location:**\ Discord?
 
 **Sponsor:**\
 John Jamieson
@@ -22,22 +22,24 @@ John Jamieson
 e.g. Frizza
 
 **Group Lead:**\
-Enter meeting facilitator here
+Liam
 
 **Note taker:**\
 Kyle Leitch
 
 **Attendees:**\
-Enter names of attendees here
+Liam
+kyle Leitch
+Maraea
 
 **Absent:**\
-Enter names of those absent here
+Luke
 
 **Please bring:**\
 Laptop
 
 **Agenda items:**\
-- Enter Agenda Item here
+- Stakeholder Regisitery file fix
 - Enter Agenda Item here
 
 ------------------------------------------------------------------------
@@ -47,17 +49,16 @@ Laptop
 ### Agenda Item 1
 
 **Topic:**\
-Enter agenda item here
+StakeHolder Regisitery table
 
 **Presenter:**\
-Enter presenter here
+Liam
 
 **Discussion:**\
-To get started right away, just tap any placeholder text (such as this)
-and start typing to replace it with your own.
+the stakeholder registery is in the wrong file type and needs to be converted into markdown format to allow for propper viewing inside of github for teacher marking.
 
 **Conclusions:**\
-Enter conclusions here.
+use a .ODS to .md converter to convert the ods file to markdown and upload it to the github repo in a viewable format.
 
 #### Action Items
 
@@ -65,13 +66,13 @@ Enter conclusions here.
   Action Item           Person Responsible               Deadline
   --------------------- -------------------------------- ----------------
   Enter action items    Enter person responsible here    Enter deadline
-  here                                                   here
+  Convert the file type     Kyle                           06/03/2026
 
   Enter action items    Enter person responsible here    Enter deadline
-  here                                                   here
+  upload new file to gitbuh       Kyle                      07/03/2026
 
   Enter action items    Enter person responsible here    Enter deadline
-  here                                                   here
+  ensure it's readable within github        Kyle           08/03/2026
   -----------------------------------------------------------------------
 
 ------------------------------------------------------------------------
