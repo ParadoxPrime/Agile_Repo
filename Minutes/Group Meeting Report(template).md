@@ -10,8 +10,8 @@
 **Time:**
 **Location:**
 
-**Sponsor:** John Jamieson
-**Team Freeza**
+**Sponsor:** John Jamieson<br>
+**Team Freeza**<br>
 **Group Lead:**<br>
 **Note taker:**
 
