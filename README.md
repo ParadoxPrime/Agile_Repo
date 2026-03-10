@@ -1,7 +1,7 @@
 
 # Agile Projects
 
-This is our joint repository for our "Agile Projects" groupwork assignment.
+This is our joint repository for our "Agile Projects" groupwork assignment.<br>
 Group members: Kyle, Maraea, Liam
 
 ## Iteration 1
