@@ -1,6 +1,6 @@
 # Persona Profile
 
-![Persona Image](Konstadina_O'Boyle.png)  
+![Persona Image](Konstadina-O'Boyle.png)  
 *Figure 1: Add image source*
 
 ---
