@@ -3,8 +3,6 @@
 
 This is our joint repository for our Agile Projects groupwork assignment.
 
----
-
 ## Iteration 1
 
 ### Assignment Requirements:
@@ -14,7 +12,7 @@ This is our joint repository for our Agile Projects groupwork assignment.
 Our iteration 1 directory contains our work relating to the iteration 1 section of our assignment (as seen above).
 - Personas directory
 	- Personas:
- 		- user : "Jennifer Michael"
+ 		- user : "Jennifer Michael" - Maraea
      	- ...
         - ...
 - Minutes 
@@ -45,4 +43,3 @@ Our iteration 1 directory contains our work relating to the iteration 1 section 
 - Luke
 - Maraea
 - Kyle
-- Luke
