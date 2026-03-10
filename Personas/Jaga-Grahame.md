@@ -45,3 +45,6 @@
 
 ---
 
+## Refrences
+
+Google. (2026, March 11). AI-generated image. Gemini 3.
