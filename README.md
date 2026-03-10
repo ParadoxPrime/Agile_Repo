@@ -11,7 +11,7 @@ This is our joint repository for our Agile Projects groupwork assignment.
 <!--Assignment 1 requirements screenshots-->
 ![Iteration 1](images/iteration1.png)
 
-Our iteration 1 directory contains our work relating to iteration 1
+Our iteration 1 directory contains our work relating to the iteration 1 section of our assignment (as seen above).
 - Personas directory
 	- 4 Personas
 - Minutes 
