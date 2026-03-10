@@ -7,11 +7,11 @@ This is our joint repository for our Agile Projects groupwork assignment.
 
 ## Iteration 1
 
+### Assignment Requirements:
 <!--Assignment 1 requirements screenshots-->
 ![Iteration 1](images/iteration1.png)
 
-This folder is our Iteration 1 work, which contains:
-
+Our iteration 1 directory contains our work relating to iteration 1
 - Personas directory
 	- 4 Personas
 - Minutes 
@@ -19,14 +19,17 @@ This folder is our Iteration 1 work, which contains:
 	- Meeting notes 2
 	- Meeting notes 3
 
-- Stakeholder-Register
+- Stakeholder Register
 
-## Iteration 2:
+## Iteration 2
 
+### Assignment Requirements
 ![Iteration 2](images/iteration2.png)
 <!--Assignment 2 requirements screenshots-->
 
-## Iteration 3:
+## Iteration 3
+
+### Assignment Requirements
 
 ![Iteration 3](images/iteration3.png)
 <!--Assignment 3 requirements screenshots-->
