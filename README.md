@@ -1,7 +1,8 @@
 
 # Agile Projects
 
-This is our joint repository for our Agile Projects groupwork assignment.
+This is our joint repository for our "Agile Projects" groupwork assignment.
+Group members: Kyle, Maraea, Liam
 
 ## Iteration 1
 
@@ -9,17 +10,17 @@ This is our joint repository for our Agile Projects groupwork assignment.
 <!--Assignment 1 requirements screenshots-->
 ![Iteration 1](images/iteration1.png)
 
-Repository Setup - Liam <br>
+Repository - Liam <br>
 Team Chat: Discord - Liam
 
-Our iteration 1 directory contains our work relating to the iteration 1 section of our assignment (as seen above).
+This directory contains our work relating to the iteration 1 section of our assignment (as seen above).
 
 - *Personas*
 	- Personas:
  		- user : "Jennifer Michael" - Maraea
      	- user : "Jaga Grahame" - Kyle
 		- user : "Joe Rogers" - Luke
-- Persona Reviews
+- *Persona Reviews*
 	- Jennifer Michael - Everyone
 	- Jaga Grahame - Everyone
  	- Joe Rogers - Everyone
@@ -48,7 +49,7 @@ Our iteration 1 directory contains our work relating to the iteration 1 section 
 
 # Contributors
 
-- Liam
-- Luke
-- Maraea
-- Kyle
+- Liam (ParadoxPrime)
+- Maraea (axewpokeman23)
+- Kyle (ObseleteAnti)
+- Luke (g59smileyface-bot)
