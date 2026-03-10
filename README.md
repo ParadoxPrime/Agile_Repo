@@ -13,8 +13,8 @@ Our iteration 1 directory contains our work relating to the iteration 1 section 
 - *Personas*
 	- Personas:
  		- user : "Jennifer Michael" - Maraea
-     	- ...
-        - ...
+     	- user : "Jaga Grahame" - Kyle
+		- user : "Joe Rogers" - Luke
 - Persona Reviews
 	- Jennifer Michael
 	- Sorry I genuinely forgot the name of everyone else lol
