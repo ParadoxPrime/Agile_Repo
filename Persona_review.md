@@ -1,4 +1,9 @@
 Persona review
 
-- jaga -
+jaga - by Kyle
   
+
+Jennifer Michael - by maraea
+
+
+Joe Rogers - by Luke
