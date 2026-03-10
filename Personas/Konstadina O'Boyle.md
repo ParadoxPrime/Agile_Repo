@@ -1,7 +1,7 @@
 # Persona Profile
 
 ![Persona Image](Konstadina-O'Boyle.png)  
-*Figure 1: Add image source*
+*Figure 1: Gemini AI*
 
 ---
 
