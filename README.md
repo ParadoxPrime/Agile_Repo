@@ -10,17 +10,22 @@ This is our joint repository for our Agile Projects groupwork assignment.
 ![Iteration 1](images/iteration1.png)
 
 Our iteration 1 directory contains our work relating to the iteration 1 section of our assignment (as seen above).
-- Personas directory
+- *Personas*
 	- Personas:
  		- user : "Jennifer Michael" - Maraea
      	- ...
         - ...
-- Minutes 
+- Persona Reviews
+	- Jennifer Michael
+	- Sorry I genuinely forgot the name of everyone else lol
+ 	- ...
+   
+- *Minutes* 
 	- Meeting notes 1 - Maraea
 	- Meeting notes 2 - Kyle
 	- Meeting notes 3 - Luke
 
-- Stakeholder Register - Kyle
+- *Stakeholder Register* - Kyle
 
 ## Iteration 2
 
