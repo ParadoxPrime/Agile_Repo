@@ -10,18 +10,18 @@ Group members: Kyle, Maraea, Liam
 <!--Assignment 1 requirements screenshots-->
 > ![Iteration 1](images/iteration1.png)
 
-Below is our directory structure for the tasks in the iteration 1 section of our assignment (as seen above).
+Below is a brief overview of our directory structure relating to the tasks in the iteration 1 section of our assignment.
 
 - *Personas*
 	- Personas:
  		- user : "Jennifer Michael" - Maraea
      	- user : "Jaga Grahame" - Kyle
 		- user : "Joe Rogers" - Luke
-- *Persona Reviews*
+- *Persona Reviews document*
 - *Minutes/meeting notes* 
 	- Meeting notes 1 - Maraea
 	- Meeting notes 2 - Kyle
-	- Meeting notes 3 - Luke
+	- Meeting notes 3 - Luke/Kyle
 - *Stakeholder Register* - Kyle
 
 ## Iteration 2
