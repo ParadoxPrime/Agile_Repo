@@ -2,6 +2,8 @@
 
 ---
 
+repo link: https://github.com/ParadoxPrime/Agile_Repo
+
 ## Overview of Group Contributions per member
 
 ### Maraea
@@ -70,4 +72,4 @@ Going forward, I will dedicate more time to these assignments, be more helpful t
 
 ## Conclusion:
 
-Overall, I am a bit unhappy with my OWN personal contributions to this iteration, but I AM happy with everyone else's work! There were understandably some personal struggles among members but we as a team took that into account and still completed the work by the deadline.
+Overall, I am a bit unhappy with my OWN personal contributions to this iteration, but I AM happy with everyone else's work! There were some personal struggles among members but we as a team took that into account and still completed the work by the deadline!
