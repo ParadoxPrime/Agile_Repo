@@ -30,7 +30,7 @@ on certain aspects of the group assignment.
 
 ### Luke
 - contributed to group meetings often
-- worked on persona: barry whitmore
+- worked on persona: barry whitmore and joe rodgers
 - took meeting notes for meeting three
 
 > (eventually moved into another group)
