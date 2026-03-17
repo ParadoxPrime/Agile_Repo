@@ -50,20 +50,24 @@
 
 There may be more work that teammates did but I can't remember all of it.
 
-## Personal Reflection
+### Personal Reflection
 
-I want to try to contribute more to group discussions
-Be more timely with my own work submissions
-Be more co-operative: provide feedback on teammates work in a timely manner
-- I could do this by reviewing as soon as or near a time when a teammate has pushed their work
-- (and also asked for feedback!!)
-Try not to be too overwhelming and cut down on long-winded explanations, make my messages more concise and easier to take in for others.
-I also want to try to be more organised and try to stay on top of discussions and changes, etc.
+- I want to try to contribute more to group discussions
+- Be more timely with my own work submissions
+- Be more co-operative: provide feedback on teammates work in a timely manner
+	- I could do this by reviewing as soon as or near a time when a teammate has pushed their work
+	- (and also asked for feedback!!)
+- Try not to be too overwhelming and cut down on long-winded explanations, make my messages more concise and easier to take in for others.
+- I also want to try to be more organised and try to stay on top of discussions and changes, etc.
 
 Conclusion:
 Going forward, I will dedicate more time to these assignments, be more helpful to the team and TRY to provide SHORT feedback where possible (and if wanted).
 
-## What we could work on in the future:
+### What we could work on in the future:
 
 - better handling of deadlines and task allocation
 - better communication, organization of information (mostly my fault, I created multiple channels in our discord for different use-cases and ended up mainly using the general and git update chat)
+
+## Conclusion:
+
+Overall, I am a bit unhappy with my OWN personal contributions to this iteration, but I AM happy with everyone else's work! There were understandably some personal struggles among members but we as a team took that into account and still completed the work by the deadline.
