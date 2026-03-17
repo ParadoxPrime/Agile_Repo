@@ -12,6 +12,7 @@ Group members: Kyle, Maraea, Liam
 
 Below is a brief overview of our directory structure relating to the tasks in the iteration 1 section of our assignment.
 
+*Main*
 - *Personas*
 	- Personas:
  		- user : "Jennifer Michael" - Maraea
