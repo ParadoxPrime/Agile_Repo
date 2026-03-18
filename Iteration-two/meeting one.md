@@ -19,7 +19,7 @@
 <br>
 **Absent:** N/A
 
-> Note: Liam had to leave early
+> Note: Liam was unwell and had to leave early
 
 ------------------------------------------------------------------------
 
