@@ -16,6 +16,7 @@
 **Note taker:** Maraea
 
 **Attendees:** Maraea, Kyle, Liam
+<br>
 **Absent:** N/A
 
 > Note: Liam had to leave early
@@ -49,8 +50,9 @@ next meeting notetaker: planned to be liam, but will need to ask him the next ti
 **Conclusions:**
 
 Waiting until next week classes for further planning.
-- when everyone is (hopefully) present,
-- we may recieve more instructions
+reasons:
+- everyone will hopefully be present
+- we may recieve more instructions from john
 <br>
 we are letting everyone have the notetaker role so that in our third and final
 iteration we can review all meeting notes, identify the best notetaker and let them take the note taking role for the entirety of iteration 3.
