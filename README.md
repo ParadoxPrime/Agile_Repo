@@ -15,7 +15,7 @@ This is our joint repository for our "Agile Projects" groupwork assignment.<br>
      		- [Jaga Grahame](Iteration-one/Personas/"Jaga_Grahame.md")
 		- [Joe Rogers](Iteration-one/Personas/"Joe_Rogers.md")
 		- [Barry Whitmore](Iteration-one/Personas/"Barry_Whitmore.md")
-		- [Konstadina O'Boyle](Iteration-one/Personas/"Konstadine O'Boyle.md")
+		- [Konstadina O'Boyle](Iteration-one/Personas/"Konstadina O'Boyle.md")
 - [*Persona Reviews document*](Iteration-one/Persona_review.md)
 
 - *Minutes/meeting notes* 
