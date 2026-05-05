@@ -1,70 +1,79 @@
-# Practical Project - Iteration 1 <!-- <<< Increment with each iteration -->
+# Practical Project - Iteration 1
 
-# Group Meeting Report 1 <!-- <<< Increment with each meeting-->
+# Group Meeting Report 1
 
 ---
 
 ## Notice of Meeting and Agenda
 
-**Date:**
-**Time:**
-**Location:**
+**Date:** May 6, 2026  
+**Time:** 11:10am  
+**Location:** EIT Classroom  
 
-**Sponsor:** John Jamieson<br>
-**Team Freeza**<br>
-**Group Lead:**<br>
-**Note taker:**
+**Sponsor:** John Jamieson  
+**Team Freeza**  
+**Group Lead:** Maraea  
+**Note taker:** Kyle  
 
-**Attendees:**<br> <!-- line break -->
-**Absent:**
+**Attendees:**  
+Kyle  
+Maraea  
 
-**Please bring:**
+**Absent:**  
+Liam  
+
+**Please bring:**  
+Project files and current progress updates  
 
 ------------------------------------------------------------------------
 
 ## Agenda Items
 
-### Agenda Item 1:
+### Agenda Item 1: Website File Upload & Review
 
-**Presenter:**
+**Presenter:** Kyle  
 
-**Discussion:**
+**Discussion:**  
+Kyle will upload all website files so the team can review and make necessary edits. This is required before further testing and validation can occur.  
 
-**Conclusions:**
+**Conclusions:**  
+All files must be uploaded by the end of the week to keep the project moving forward.  
 
 #### Action 
 
-
 | Action item | Person Responsible | Deadline |
 |---|---|---|
-| Task1 | Person1 | Date1 |
-| Task2 | Person2 | Date2 |
+| Upload all website files | Kyle | May 10, 2026 |
+| Review and edit uploaded files | Team | After upload |
 
 ---
 
-### Agenda Item 2:
+### Agenda Item 2: Risk Register & User Acceptance Testing
 
-**Presenter:**
+**Presenter:** Team Discussion  
 
-**Discussion:**
+**Discussion:**  
+Maraea will complete the risk register, though no set deadline has been established yet.  
+Liam will conduct the User Acceptance Testing (UAT), but this depends on the website being completed and reviewed first.  
 
-**Conclusions:**
+**Conclusions:**  
+Both tasks are dependent on earlier project progress, so timelines remain flexible for now.  
 
 #### Action 
 
 | Action item | Person Responsible | Deadline |
 |---|---|---|
-| Task1 | Person1 | Date1 |
-| Task2 | Person2 | Date2 |
+| Complete risk register | Maraea | TBD |
+| Conduct User Acceptance Testing | Liam | TBD (dependent on website completion) |
 
 ---
 
 ## Other Information
 
-**Resources:** N/A <!--any good resources or websites we discussed?-->
+**Resources:** N/A  
 
-**Date of next meeting:** TBD
+**Date of next meeting:** Next week  
 
 ------------------------------------------------------------------------
 
-ITPM5.248 Agile Projects - Kyle, Liam, Luke, Maraea 
+ITPM5.248 Agile Projects - Kyle, Liam, Luke, Maraea  
