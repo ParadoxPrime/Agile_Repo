@@ -11,11 +11,16 @@
 /* ========================================
    GLOBAL BODY STYLES
    ======================================== */
-/* Set Poppins as the main font, dark text color, white background, and hide horizontal overflow */
+/* Universal pitch black background for entire website */
+* {
+  background-color: #000000;
+}
+
+/* Set Poppins as the main font, dark text color, black background, and hide horizontal overflow */
 body {
   font-family: "Poppins", sans-serif;
-  color: #0c0c0c;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #000000;
   overflow-x: hidden;
 }
 
@@ -512,7 +517,7 @@ a:focus {
   color: #000000;
 }
 
-.shop_section .box .img-box {
+..shop_section .box .img-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -523,12 +528,12 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   padding: 15px 30px;
-  height: 245px;
+  height: 205px;
 }
 
 .shop_section .box .img-box img {
   max-width: 100%;
-  max-height: 175px;
+  max-height: 140px;
 }
 
 /* Product details flex layout: spreads name and price apart horizontally */
