@@ -11,11 +11,11 @@
 /* ========================================
    GLOBAL BODY STYLES
    ======================================== */
-/* Set Poppins as the main font, dark text color, white background, and hide horizontal overflow */
+/* Set Poppins as the main font, dark text color, black background, and hide horizontal overflow */
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
-  background-color: #ffffff;
+  background-color: #000000;
   overflow-x: hidden;
 }
 

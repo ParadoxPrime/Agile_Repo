@@ -41,9 +41,16 @@
       100% { color: rgb(255, 0, 0); }    /* Back to Red */
     }
     
-    /* Apply rainbow animation to all text elements */
+    /* Chromatic aberration effect - RGB offset for each character */
+    @keyframes chromaShift {
+      0% { text-shadow: -2px 0 #ff0000, 2px 0 #0000ff; }
+      50% { text-shadow: 2px 0 #ff0000, -2px 0 #0000ff; }
+      100% { text-shadow: -2px 0 #ff0000, 2px 0 #0000ff; }
+    }
+    
+    /* Apply rainbow animation and chromatic aberration to all text elements */
     h1, h2, h3, h4, h5, h6, p, span, a, button, input::placeholder {
-      animation: rgbCycle 6s linear infinite;
+      animation: rgbCycle 6s linear infinite, chromaShift 3s ease-in-out infinite;
     }
   </style>
 
