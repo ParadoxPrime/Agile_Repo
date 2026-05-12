@@ -29,11 +29,30 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
+  <!-- RGB Spectrum Animation for Text -->
+  <style>
+    @keyframes rgbCycle {
+      0% { color: rgb(255, 0, 0); }      /* Red */
+      16.67% { color: rgb(255, 255, 0); } /* Red-Green (Yellow) */
+      33.33% { color: rgb(0, 255, 0); }  /* Green */
+      50% { color: rgb(0, 255, 255); }   /* Green-Blue (Cyan) */
+      66.67% { color: rgb(0, 0, 255); }  /* Blue */
+      83.33% { color: rgb(255, 0, 255); } /* Blue-Red (Magenta) */
+      100% { color: rgb(255, 0, 0); }    /* Back to Red */
+    }
+    
+    /* Apply rainbow animation to all text elements */
+    h1, h2, h3, h4, h5, h6, p, span, a, button, input::placeholder {
+      animation: rgbCycle 6s linear infinite;
+    }
+  </style>
+
 </head>
 
 <body>
-
+  <!-- Main hero section containing navigation and carousel -->
   <div class="hero_area">
+    <!-- Social media links in hero header -->
     <div class="hero_social">
       <a href="">
         <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -48,7 +67,7 @@
         <i class="fa fa-instagram" aria-hidden="true"></i>
       </a>
     </div>
-    <!-- header section strats -->
+    <!-- Navigation header section with brand logo and menu -->
     <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
@@ -98,7 +117,7 @@
       </div>
     </header>
     <!-- end header section -->
-    <!-- slider section -->
+    <!-- Carousel slider section showcasing featured smartwatches -->
     <section class="slider_section ">
       <div id="customCarousel1" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -192,8 +211,7 @@
     <!-- end slider section -->
   </div>
 
-  <!-- shop section -->
-
+  <!-- Shop section displaying latest smartwatch products with pricing -->
   <section class="shop_section layout_padding">
     <div class="container">
       <div class="heading_container heading_center">
@@ -388,8 +406,7 @@
 
   <!-- end shop section -->
 
-  <!-- about section -->
-
+  <!-- About section with company information and image -->
   <section class="about_section layout_padding">
     <div class="container  ">
       <div class="row">
@@ -422,8 +439,7 @@
 
   <!-- end about section -->
 
-  <!-- feature section -->
-
+  <!-- Features section highlighting key smartwatch capabilities -->
   <section class="feature_section layout_padding">
     <div class="container">
       <div class="heading_container">
@@ -530,8 +546,7 @@
 
   <!-- end feature section -->
 
-  <!-- contact section -->
-
+  <!-- Contact section with form and contact image -->
   <section class="contact_section">
     <div class="container">
       <div class="row">
@@ -574,7 +589,7 @@
 
   <!-- end contact section -->
 
-  <!-- client section -->
+  <!-- Client testimonials section with carousel of customer reviews -->
   <section class="client_section layout_padding">
     <div class="container">
       <div class="heading_container heading_center">
@@ -648,7 +663,7 @@
   </section>
   <!-- end client section -->
 
-  <!-- footer section -->
+  <!-- Footer section with company info, contact details, and subscription -->
   <footer class="footer_section">
     <div class="container">
       <div class="row">
@@ -734,21 +749,22 @@
   </footer>
   <!-- footer section -->
 
-  <!-- jQery -->
+  <!-- External JavaScript Libraries and Scripts -->
+  <!-- jQuery library for DOM manipulation and utilities -->
   <script src="js/jquery-3.4.1.min.js"></script>
-  <!-- popper js -->
+  <!-- Popper.js for positioning tooltips and popovers -->
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
   </script>
-  <!-- bootstrap js -->
+  <!-- Bootstrap JavaScript for responsive components and interactions -->
   <script src="js/bootstrap.js"></script>
-  <!-- owl slider -->
+  <!-- Owl Carousel library for product and testimonial sliders -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
   </script>
-  <!-- custom js -->
+  <!-- Custom JavaScript for site-specific functionality -->
   <script src="js/custom.js"></script>
-  <!-- Google Map -->
+  <!-- Google Maps API for displaying location map in footer -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
-  <!-- End Google Map -->
+  <!-- End Google Maps integration -->
 
 </body>
 
