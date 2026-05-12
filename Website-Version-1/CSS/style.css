@@ -1,4 +1,17 @@
+/* ========================================
+   STYLE.CSS - MAIN CUSTOM STYLESHEET
+   ======================================== 
+   This file contains custom styling for the website.
+   It includes global styles, component styling, and layout definitions.
+   ======================================== */
+
+/* Import Poppins font family from Google Fonts with weights 400, 600, and 700 */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+/* ========================================
+   GLOBAL BODY STYLES
+   ======================================== */
+/* Set Poppins as the main font, dark text color, white background, and hide horizontal overflow */
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
@@ -6,34 +19,48 @@ body {
   overflow-x: hidden;
 }
 
+/* ========================================
+   LAYOUT UTILITY CLASSES
+   ======================================== */
+/* Vertical padding utility: adds 90px padding on top and bottom for section spacing */
 .layout_padding {
   padding: 90px 0;
 }
 
+/* Vertical margin utility: adds 90px margin on top and bottom for section spacing */
 .layout_margin {
   margin: 90px 0;
 }
 
+/* Alternative vertical padding utility: adds 75px padding on top and bottom */
 .layout_padding2 {
   padding: 75px 0;
 }
 
+/* Adds 75px padding only to the top of an element */
 .layout_padding2-top {
   padding-top: 75px;
 }
 
+/* Adds 75px padding only to the bottom of an element */
 .layout_padding2-bottom {
   padding-bottom: 75px;
 }
 
+/* Adds 90px padding only to the top of an element */
 .layout_padding-top {
   padding-top: 90px;
 }
 
+/* Adds 90px padding only to the bottom of an element */
 .layout_padding-bottom {
   padding-bottom: 90px;
 }
 
+/* ========================================
+   HEADING CONTAINER STYLES
+   ======================================== */
+/* Flexible container for headings: arranges children vertically and aligns them to the left */
 .heading_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -47,15 +74,18 @@ body {
           align-items: flex-start;
 }
 
+/* Styles for h2 headings inside heading_container: bold text with relative positioning */
 .heading_container h2 {
   position: relative;
   font-weight: bold;
 }
 
+/* Highlights span elements inside h2 with the brand yellow color (#f0d43a) */
 .heading_container h2 span {
   color: #f0d43a;
 }
 
+/* Alternative heading container style: centers all content horizontally and vertically */
 .heading_container.heading_center {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -63,19 +93,32 @@ body {
   text-align: center;
 }
 
+/* ========================================
+   GLOBAL LINK AND BUTTON STYLES
+   ======================================== */
+/* Remove text decoration from all links and their states (hover, focus) */
 a,
 a:hover,
 a:focus {
   text-decoration: none;
 }
 
+/* Prevent color change on link hover and focus states */
 a:hover,
 a:focus {
   color: initial;
 }
 
+/* Remove outlines and shadows from buttons and focused buttons for a cleaner look */
 .btn,
-.btn:focus {
+.b ========================================
+   HEADER / HERO AREA SECTION
+   ======================================== 
+   The hero area is the main landing section visible when page loads.
+   It spans the full viewport height and contains the banner content.
+   ======================================== */
+
+/* Main hero section: full viewport height with left padding for social icons 
   outline: none !important;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -88,13 +131,7 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding-left: 45px;
-}
-
+/* Social media icons sidebar in hero area: positioned vertically on the left side */
 .hero_area .hero_social {
   position: absolute;
   top: 45%;
@@ -114,50 +151,65 @@ a:focus {
           transform: translateY(-50%);
 }
 
+/* Individual social media links: gray color with small vertical spacing */  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 45px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
 .hero_area .hero_social a {
   color: #999;
   margin: 5px 0;
-}
-
+/* Container within hero area: adds horizontal padding for content */
 .hero_area .container-fluid {
   padding-left: 25px;
   padding-right: 25px;
 }
 
+/* Sub-page hero area variant: smaller height with rounded bottom-right corner */
 .sub_page .hero_area {
   min-height: auto;
   border-radius: 0 0 45px 0;
   padding-left: 0;
 }
 
-.sub_page .header_section {
-  -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
-          box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
+/* Header section on sub-pages: adds subtle shadow for depth */  padding-left: 0;
 }
 
+/* ========================================
+   NAVIGATION HEADER SECTION
+   ======================================== */
+
+/* Main header section: vertical padding for the navigation bar */
 .header_section {
   padding: 15px 0;
 }
 
+/* Container width management: ensures proper spacing inside the header */
 .header_section .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
 }
 
-.navbar-brand span {
-  font-weight: bold;
-  color: #000000;
-  font-size: 24px;
-}
+/* Logo/brand text styling: bold, black, and larger font size */
+.header_section .container-fluid {
+/* ========================================
+   CUSTOM NAVIGATION CONTAINER
+   ======================================== */
 
+/* Navigation container: removes default padding for a cleaner layout */
 .custom_nav-container {
   padding: 0;
 }
 
+/* Navigation list: centers menu items using auto margins */
 .custom_nav-container .navbar-nav {
   margin: auto;
 }
 
+/* Individual navigation links: uppercase text with padding, rounded corners, and hover effect */
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 5px 25px;
   color: #000000;
@@ -166,17 +218,16 @@ a:focus {
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-}
+/* ========================================
+   MOBILE MENU HAMBURGER BUTTON (TOGGLER)
+   ======================================== */
 
-.custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #000000;
-  background-color: #ffffff;
-}
-
+/* Mobile menu toggle button: removes outline for clean appearance */
 .custom_nav-container .navbar-toggler {
   outline: none;
 }
 
+/* Toggle button sizing and styling: creates small menu button */
 .custom_nav-container .navbar-toggler {
   padding: 0;
   width: 37px;
@@ -185,6 +236,7 @@ a:focus {
   transition: all 0.3s;
 }
 
+/* Hamburger menu line (middle bar): horizontal black line */
 .custom_nav-container .navbar-toggler span {
   display: block;
   width: 35px;
@@ -198,6 +250,7 @@ a:focus {
   transition: all 0.3s;
 }
 
+/* Pseudo-elements for hamburger top and bottom lines using ::before and ::after */
 .custom_nav-container .navbar-toggler span::before, .custom_nav-container .navbar-toggler span::after {
   content: "";
   position: absolute;
@@ -210,27 +263,30 @@ a:focus {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
+/* ========================================
+   HAMBURGER MENU ANIMATION (OPEN STATE)
+   ======================================== */
 
-.custom_nav-container .navbar-toggler span::after {
-  top: 10px;
-}
-
+/* When menu is expanded (aria-expanded="true"): rotate entire button 360 degrees */
 .custom_nav-container .navbar-toggler[aria-expanded="true"] {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
 
+/* Middle line rotates 45 degrees to form part of X shape */
 .custom_nav-container .navbar-toggler[aria-expanded="true"] span {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
 
+/* Top and bottom lines rotate and move to form X */
 .custom_nav-container .navbar-toggler[aria-expanded="true"] span::before, .custom_nav-container .navbar-toggler[aria-expanded="true"] span::after {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   top: 0;
 }
 
+/* Top line (s-1): rotates to align with bottom line forming part of X */
 .custom_nav-container .navbar-toggler[aria-expanded="true"] .s-1 {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
@@ -238,10 +294,12 @@ a:focus {
   margin-bottom: -4px;
 }
 
+/* Middle line (s-2): hidden when menu is open */
 .custom_nav-container .navbar-toggler[aria-expanded="true"] .s-2 {
   display: none;
 }
 
+/* Bottom line (s-3): rotates in opposite direction to complete X shape */
 .custom_nav-container .navbar-toggler[aria-expanded="true"] .s-3 {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -249,13 +307,15 @@ a:focus {
   margin-top: -4px;
 }
 
-.custom_nav-container .navbar-toggler[aria-expanded="false"] .s-1,
-.custom_nav-container .navbar-toggler[aria-expanded="false"] .s-2,
-.custom_nav-container .navbar-toggler[aria-expanded="false"] .s-3 {
-  -webkit-transform: none;
-          transform: none;
-}
+/* When menu is closed: reset all lines to normal position (no transformation) */
+.custom_nav-container .navbar-toggler[aria-expanded="true"] span::before, .custom_nav-container .navbar-toggler[aria-expanded="true"] span::after {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+/* ========================================
+   USER OPTIONS BOX (LOGIN, CART, ETC.)
+   ======================================== */
 
+/* Container for user action links: uses flexbox to align items horizontally */
 .user_option-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -265,6 +325,7 @@ a:focus {
           align-items: center;
 }
 
+/* User option links: uppercase text with left margin and larger font */
 .user_option-box a {
   color: #000000;
   text-transform: uppercase;
@@ -272,12 +333,7 @@ a:focus {
   font-size: 17px;
 }
 
-.user_option-box a:hover {
-  color: #3b4a6b;
-}
-
-/*end header section*/
-/* slider section */
+/* Main slider container: full width with dark navy background and rounded corner */
 .slider_section {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -294,26 +350,34 @@ a:focus {
   background: #3b4a6b;
 }
 
+/* Row within slider: vertically centers content */
 .slider_section .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
+/* Bootstrap carousel component: full width */
 .slider_section #customCarousel1 {
   width: 100%;
   position: unset;
 }
 
+/* Text content box within slider: white text for contrast against dark background */
 .slider_section .detail-box {
   color: #ffffff;
 }
 
-.slider_section .detail-box h1 {
-  font-weight: bold;
-  margin-bottom: 20px;
+/* Large heading within slider: bold with bottom margin for spacing */.user_option-box a {
+  color: #000000;
+  text-transform: uppercase;
+  margin-left: 15px;
+  font-size: 17px;
 }
 
+.user_option-box a:hover {
+  color: #3b4a6b;
+/* Button container within slider detail: flex layout for horizontal button alignment */
 .slider_section .detail-box .btn-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -322,12 +386,14 @@ a:focus {
   margin-top: 15px;
 }
 
+/* Individual buttons within button box: fixed width with margins */
 .slider_section .detail-box .btn-box a {
   margin: 5px;
   text-align: center;
   width: 185px;
 }
 
+/* CTA (Call-to-Action) button: yellow background with hover animation */
 .slider_section .detail-box .btn-box .btn1 {
   display: inline-block;
   padding: 12px 15px;
@@ -339,16 +405,15 @@ a:focus {
   border: 1px solid #e6c511;
 }
 
-.slider_section .detail-box .btn-box .btn1:hover {
-  color: #ffffff;
-  -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
-}
+/* Button hover effect: lifts button up slightly for interactive feedback */}
 
+.slider_section #customCarousel1 {
+/* Slider image: spans full container width */
 .slider_section .img-box img {
   width: 100%;
 }
 
+/* Carousel indicator dots: positioned below carousel with centered alignment */
 .slider_section .carousel-indicators {
   position: unset;
   margin: 0;
@@ -361,12 +426,67 @@ a:focus {
   margin-top: 45px;
 }
 
+/* Inactive carousel indicator dots: small white circles */
 .slider_section .carousel-indicators li {
   background-color: #ffffff;
   width: 15px;
   height: 15px;
   border-radius: 100%;
   opacity: 1;
+}
+
+/* Active carousel indicator: larger and yellow to show current slide */  text-align: center;
+  width: 185px;
+}
+
+.slider_section .detail-box .btn-box .btn1 {
+  display: inline-block;
+  padding: 12px 15px;
+  background-color: #e6c511;
+  color: #ffffff;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+/* ========================================
+   SHOP / PRODUCTS SECTION
+   ======================================== */
+
+/* Section heading: small bottom margin */
+.shop_section .heading_container {
+  margin-bottom: 20px;
+}
+
+/* Product card: light background with rounded corners and positioned layout */
+.shop_section .box {
+  background-color: #faf9fa;
+  position: relative;
+  padding: 10px 15px;
+  margin-top: 25px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/* Links within product cards: black text */
+.shop_section .box a {
+  color: #000000;
+}
+
+/* Product image container: centers image and maintains consistent height */
+.shop_section .box .img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 30px;
+  height: 245px;
+}
+
+/* Product image: responsive sizing with max constraints */  opacity: 1;
 }
 
 .slider_section .carousel-indicators li.active {
@@ -411,6 +531,7 @@ a:focus {
   max-height: 175px;
 }
 
+/* Product details flex layout: spreads name and price apart horizontally */
 .shop_section .box .detail-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -420,11 +541,13 @@ a:focus {
           justify-content: space-between;
 }
 
+/* Product price text: darker navy color and bold weight */
 .shop_section .box .detail-box h6 span {
   color: #3b4a6b;
   font-weight: 600;
 }
 
+/* "New" badge: absolute positioned in top-left, yellow background, white text */
 .shop_section .box .new {
   padding: 7px 15px;
   position: absolute;
@@ -444,6 +567,7 @@ a:focus {
   font-size: 15px;
 }
 
+/* Section button container: centers button(s) with top margin */
 .shop_section .btn-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -454,6 +578,7 @@ a:focus {
   margin-top: 45px;
 }
 
+/* Link button styling: yellow background with padding and rounded corners */
 .shop_section .btn-box a {
   display: inline-block;
   padding: 10px 50px;
@@ -465,23 +590,22 @@ a:focus {
   border: 1px solid #f0d43a;
 }
 
+/* Button hover effect: lifts button up for visual feedback */
 .shop_section .btn-box a:hover {
   color: #ffffff;
   -webkit-transform: translateY(-3px);
           transform: translateY(-3px);
 }
 
+/* ========================================
+   ABOUT SECTION
+   ======================================== */
+
+/* Main about section: dark navy background with white text */
 .about_section {
   background-color: #3b4a6b;
   color: #ffffff;
-}
-
-.about_section .row {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
+/* About section image: flex container for centered, responsive image */
 .about_section .img-box {
   position: relative;
   display: -webkit-box;
@@ -492,15 +616,18 @@ a:focus {
           justify-content: center;
 }
 
+/* About section image element: full width with max constraint */
 .about_section .img-box img {
   width: 100%;
   max-width: 375px;
 }
 
+/* About text container: adds margin above CTA button */
 .about_section .detail-box p {
   margin-top: 15px;
 }
 
+/* About section CTA button: yellow background with hover lift effect */
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
@@ -513,22 +640,34 @@ a:focus {
   margin-top: 15px;
 }
 
-.about_section .detail-box a:hover {
+/* Button hover effect: lifts button up slightly */  padding: 10px 45px;
+  background-color: #f0d43a;
   color: #ffffff;
-  -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid #f0d43a;
+  margin-top: 15px;
 }
 
+.about_section .detail-box a:hover {
+/* ========================================
+   FEATURES / HIGHLIGHTS SECTION
+   ======================================== */
+
+/* Feature section: center-aligned text layout */
 .feature_section {
   text-align: center;
 }
 
+/* Feature heading container: centered alignment */
 .feature_section .heading_container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
+/* Feature cards: elevated with shadow and hover effect, rounded corners */
 .feature_section .box {
   margin-top: 45px;
   padding: 15px;
@@ -541,6 +680,7 @@ a:focus {
   transition: all 0.2s;
 }
 
+/* Feature icon container: centers icon image with rounded background */
 .feature_section .box .img-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -555,37 +695,35 @@ a:focus {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   margin: 15px 0;
-}
-
-.feature_section .box .img-box img {
-  width: 75px;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
+/* Feature card detail text: top margin for spacing */
 .feature_section .box .detail-box {
   margin-top: 15px;
 }
 
+/* Feature title: bold with relative positioning for underline effects */
 .feature_section .box .detail-box h5 {
   font-weight: bold;
   position: relative;
 }
 
+/* Feature links: inherit parent color for consistency */
 .feature_section .box .detail-box a {
   color: inherit;
 }
 
+/* Feature card hover state: dark background with white text and inverted icon */
 .feature_section .box:hover {
   background-color: #3b4a6b;
   color: #ffffff;
 }
 
+/* Icon inversion on hover: creates contrast effect */
 .feature_section .box:hover img {
   -webkit-filter: invert(1);
           filter: invert(1);
 }
 
+/* Feature section button container: centers buttons */
 .feature_section .btn-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -596,6 +734,7 @@ a:focus {
   margin-top: 45px;
 }
 
+/* Feature section button: yellow background with padding */
 .feature_section .btn-box a {
   display: inline-block;
   padding: 10px 45px;
@@ -607,26 +746,32 @@ a:focus {
   border: 1px solid #f0d43a;
 }
 
-.feature_section .btn-box a:hover {
-  color: #ffffff;
-  -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
+/* Button hover effect: lifts button up */          justify-content: center;
+  margin-top: 45px;
 }
 
+/* ========================================
+   CONTACT SECTION
+   ======================================== */
+
+/* Contact section: positioned for layout control */
 .contact_section {
   position: relative;
 }
 
+/* Contact row: vertically centers form and image */
 .contact_section .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
+/* Contact form: adds top margin for spacing */
 .contact_section form {
   margin-top: 45px;
 }
 
+/* Contact form input fields: full width with border and padding */
 .contact_section input {
   width: 100%;
   border: none;
@@ -639,6 +784,7 @@ a:focus {
   border: 1px solid #a5a5a5;
 }
 
+/* Input placeholder text: dark gray color */
 .contact_section input::-webkit-input-placeholder {
   color: #1c1b1b;
 }
@@ -655,10 +801,11 @@ a:focus {
   color: #1c1b1b;
 }
 
-.contact_section input.message-box {
-  height: 120px;
-}
+/* Message input field: taller for multi-line text */}
 
+.contact_section input::-webkit-input-placeholder {
+  color: #1c1b1b;
+/* Contact submit button: yellow background with hover animation */
 .contact_section button {
   font-family: "Poppins", sans-serif;
   display: inline-block;
@@ -673,16 +820,28 @@ a:focus {
   margin-top: 10px;
 }
 
+/* Submit button hover effect: lifts button up */
 .contact_section button:hover {
   color: #ffffff;
   -webkit-transform: translateY(-3px);
           transform: translateY(-3px);
 }
 
-.contact_section .img-box img {
-  width: 100%;
-}
+/* Contact form image: full width for responsive design */  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  padding: 10px 65px;
+  background-color: #f0d43a;
+  color: #ffffff;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid #f0d43a;
+  color: #fff;
+/* ========================================
+   CLIENT / TESTIMONIALS SECTION
+   ======================================== */
 
+/* Individual client testimonial card: flexbox column layout, dark background, centered */
 .client_section .box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -702,6 +861,7 @@ a:focus {
   padding: 25px;
 }
 
+/* Client profile image container: circular frame with dashed border */
 .client_section .box .img-box {
   width: 125px;
   height: 125px;
@@ -713,32 +873,27 @@ a:focus {
   margin-bottom: 15px;
 }
 
+/* Client profile image: circular and contained */
 .client_section .box .img-box img {
   width: 100%;
   border-radius: 100%;
 }
 
+/* Client name: bold, uppercase, no bottom margin */
 .client_section .box .client_info .client_name h5 {
   font-weight: bold;
   margin-bottom: 0;
   text-transform: uppercase;
 }
 
+/* Client title/position: yellow color, uppercase, smaller font */
 .client_section .box .client_info .client_name h6 {
   color: #f0d43a;
   font-weight: normal;
   font-size: 15px;
   text-transform: uppercase;
 }
-
-.client_section .box .client_info i {
-  font-size: 24px;
-}
-
-.client_section .box p {
-  margin-top: 15px;
-}
-
+/* Carousel navigation: flex layout for button alignment */
 .client_section .owl-carousel .owl-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -750,6 +905,7 @@ a:focus {
   padding: 0 15px;
 }
 
+/* Carousel prev/next buttons: yellow square buttons with icons */
 .client_section .owl-carousel .owl-nav .owl-prev,
 .client_section .owl-carousel .owl-nav .owl-next {
   width: 45px;
@@ -762,21 +918,30 @@ a:focus {
   margin: 0 5px;
 }
 
+/* ========================================
+   FOOTER SECTION
+   ======================================== */
+
+/* Main footer: dark navy background with white text and padding */
 .footer_section {
   background-color: #3b4a6b;
   color: #ffffff;
   padding-top: 60px;
 }
 
+/* Footer column headings: bold with bottom margin */
 .footer_section h4 {
   font-weight: 600;
   margin-bottom: 20px;
 }
 
-.footer_section .footer-col {
-  margin-bottom: 30px;
-}
+/* Individual footer column: bottom margin for spacing between sections */}
 
+.client_section .owl-carousel .owl-nav .owl-prev,
+.client_section .owl-carousel .owl-nav .owl-next {
+  width: 45px;
+  height: 45px;
+/* Contact link container: vertical flex layout for stacked links */
 .footer_section .footer_contact .contact_link_box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -785,6 +950,34 @@ a:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+/* Contact links: white text with vertical spacing */
+.footer_section .footer_contact .contact_link_box a {
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+/* Icon in contact link: right margin for spacing from text */
+.footer_section .footer_contact .contact_link_box a i {
+  margin-right: 5px;
+}
+
+/* Contact link hover: turns yellow for interactivity */
+.footer_section .footer_contact .contact_link_box a:hover {
+  color: #f0d43a;
+}
+
+/* Footer social icons: flex layout for horizontal icon arrangement */
+.footer_section .footer_social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Individual social media icon: circular white button with icon */          flex-direction: column;
 }
 
 .footer_section .footer_contact .contact_link_box a {
@@ -802,36 +995,12 @@ a:focus {
 
 .footer_section .footer_social {
   display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
-.footer_section .footer_social a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #3b4a6b;
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
-  background-color: #ffffff;
-  border-radius: 100%;
-  margin-right: 5px;
-  font-size: 18px;
-}
-
+/* Social icon hover effect: turns yellow */
 .footer_section .footer_social a:hover {
   color: #f0d43a;
 }
 
+/* Newsletter subscription input: dark background with white placeholder */
 .footer_section form input {
   border: none;
   padding: 10px;
@@ -842,6 +1011,7 @@ a:focus {
   outline: none;
 }
 
+/* Input placeholder text: white color for visibility */
 .footer_section form input::-webkit-input-placeholder {
   color: #ffffff;
 }
@@ -858,6 +1028,7 @@ a:focus {
   color: #ffffff;
 }
 
+/* Newsletter subscribe button: yellow background with hover effect */
 .footer_section form button {
   width: 100%;
   text-align: center;
@@ -872,12 +1043,24 @@ a:focus {
   margin-top: 15px;
 }
 
-.footer_section form button:hover {
+/* Subscribe button hover effect: lifts button up */
+.footer_section form input:-ms-input-placeholder {
   color: #ffffff;
-  -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
 }
 
+.footer_section form input::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.footer_section form input::placeholder {
+  color: #ffffff;
+}
+
+/* ========================================
+   FOOTER MAP SECTION
+   ======================================== */
+
+/* Map container: full-width responsive container for embedded map */
 .footer_section .map_container {
   width: 100%;
   height: 225px;
@@ -890,6 +1073,35 @@ a:focus {
           align-items: stretch;
 }
 
+/* Map element: flex to fill available space */
+.footer_section .map_container .map {
+  height: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+/* Google Map iframe: full height */
+.footer_section .map_container .map #googleMap {
+  height: 100%;
+}
+
+/* ========================================
+   FOOTER INFO / COPYRIGHT SECTION
+   ======================================== */
+
+/* Footer info container: centered text alignment */
+.footer_section .footer-info {
+  text-align: center;
+}
+
+/* Footer copyright text: vertical padding with no margin */
+.footer_section .footer-info p {
+  padding: 25px 0;
+  margin: 0;
+}
+
+/* Footer info links: inherit text color from parent */
 .footer_section .map_container .map {
   height: 100%;
   -webkit-box-flex: 1;
