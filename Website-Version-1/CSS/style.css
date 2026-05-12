@@ -512,7 +512,7 @@ a:focus {
   color: #000000;
 }
 
-.shop_section .box .img-box {
+..shop_section .box .img-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -523,12 +523,12 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   padding: 15px 30px;
-  height: 245px;
+  height: 205px;
 }
 
 .shop_section .box .img-box img {
   max-width: 100%;
-  max-height: 175px;
+  max-height: 140px;
 }
 
 /* Product details flex layout: spreads name and price apart horizontally */
