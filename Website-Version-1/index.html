@@ -29,30 +29,7 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
-  <!-- RGB Spectrum Animation for Text -->
-  <style>
-    @keyframes rgbCycle {
-      0% { color: rgb(255, 0, 0); }      /* Red */
-      16.67% { color: rgb(255, 255, 0); } /* Red-Green (Yellow) */
-      33.33% { color: rgb(0, 255, 0); }  /* Green */
-      50% { color: rgb(0, 255, 255); }   /* Green-Blue (Cyan) */
-      66.67% { color: rgb(0, 0, 255); }  /* Blue */
-      83.33% { color: rgb(255, 0, 255); } /* Blue-Red (Magenta) */
-      100% { color: rgb(255, 0, 0); }    /* Back to Red */
-    }
-    
-    /* Chromatic aberration effect - RGB offset for each character */
-    @keyframes chromaShift {
-      0% { text-shadow: -2px 0 #ff0000, 2px 0 #0000ff; }
-      50% { text-shadow: 2px 0 #ff0000, -2px 0 #0000ff; }
-      100% { text-shadow: -2px 0 #ff0000, 2px 0 #0000ff; }
-    }
-    
-    /* Apply rainbow animation and chromatic aberration to all text elements */
-    h1, h2, h3, h4, h5, h6, p, span, a, button, input::placeholder {
-      animation: rgbCycle 6s linear infinite, chromaShift 3s ease-in-out infinite;
-    }
-  </style>
+
 
 </head>
 
