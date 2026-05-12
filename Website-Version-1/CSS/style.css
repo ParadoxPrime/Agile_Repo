@@ -11,10 +11,15 @@
 /* ========================================
    GLOBAL BODY STYLES
    ======================================== */
+/* Universal pitch black background for entire website */
+* {
+  background-color: #000000;
+}
+
 /* Set Poppins as the main font, dark text color, black background, and hide horizontal overflow */
 body {
   font-family: "Poppins", sans-serif;
-  color: #0c0c0c;
+  color: #ffffff;
   background-color: #000000;
   overflow-x: hidden;
 }
