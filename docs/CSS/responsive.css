@@ -1,107 +1,66 @@
-/* ========================================
-   RESPONSIVE.CSS - MOBILE & TABLET BREAKPOINTS
-   ======================================== 
-   This file contains media queries for responsive design.
-   It adjusts styles for different screen sizes to ensure
-   the website looks good on all devices (mobile, tablet, desktop).
-   ======================================== */
-
-/* ========================================
-   EXTRA LARGE SCREENS (max-width: 1300px)
-   ======================================== */
-/* Adjust footer border-radius for smaller desktop screens */
 @media (max-width: 1300px) {
   .footer_container {
     border-radius: 250px 0 0 0;
   }
 }
 
-/* ========================================
-   LARGE SCREENS (max-width: 1120px)
-   ======================================== */
-/* Reserved for future large screen adjustments */
 @media (max-width: 1120px) {}
 
-/* ========================================
-   MEDIUM SCREENS / TABLETS (max-width: 992px)
-   ======================================== 
-   Bootstrap's "lg" breakpoint - adjustments for tablets and smaller laptops
-   ======================================== */
 @media (max-width: 992px) {
-  /* Hero area: change from full viewport height to auto-height */
   .hero_area {
     height: auto;
   }
 
-  /* User options box (login, cart): center items horizontally */
   .user_option-box{
     justify-content: center;
   }
-
-  /* User option links: reduce margins on smaller screens */
   .user_option-box a {
     margin: 0 7px;
-  }
-
-  /* Navigation menu: adjust layout for tablet view */
+}
   .custom_nav-container .navbar-nav {
     margin: 0;
     margin-left: auto;
     align-items: center;
   }
 
-  /* Navigation menu padding: add vertical space between menu and toggle button */
   .custom_nav-container .navbar-nav {
     padding-top: 15px;
   }
 
-  /* Individual navigation links: adjust padding and add vertical margins */
+
   .custom_nav-container .navbar-nav .nav-item .nav-link {
     padding: 5px 25px;
     margin: 5px 0;
   }
 
-  /* Slider section: increase vertical padding for tablet view */
   .slider_section {
     padding: 75px 0;
   }
+
 }
 
-/* ========================================
-   SMALLER TABLETS (max-width: 768px)
-   ======================================== 
-   Bootstrap's "md" breakpoint - adjustments for small tablets
-   ======================================== */
 @media (max-width: 768px) {
-  /* Hero area: adjust border-radius for smaller screens */
   .hero_area {
     border-radius: 0 0 250px 0;
   }
 
-  /* Slider content: add bottom margin on smaller screens for spacing */
   .slider_section .detail-box {
     margin-bottom: 45px;
   }
 
-  /* About section image and contact form: stack vertically with bottom margin */
+
   .about_section .img-box,
   .contact_section .form_container {
     margin-bottom: 45px;
   }
+
 }
 
-/* ========================================
-   SMALL PHONES (max-width: 576px)
-   ======================================== 
-   Bootstrap's "sm" breakpoint - adjustments for portrait phones
-   ======================================== */
 @media (max-width: 576px) {
-  /* Hero area: remove left padding to use full width on small phones */
   .hero_area {
     padding-left: 0;
   }
 
-  /* Social icons sidebar: move from left side to bottom on small phones */
   .hero_area .hero_social {
     top: unset;
     bottom: -15px;
@@ -109,34 +68,13 @@
   }
 }
 
-/* ========================================
-   EXTRA SMALL PHONES (max-width: 480px)
-   ======================================== 
-   Reserved for future small phone adjustments
-   ======================================== */
 @media (max-width: 480px) {}
 
-/* ========================================
-   VERY SMALL PHONES (max-width: 420px)
-   ======================================== 
-   Reserved for future extra small phone adjustments
-   ======================================== */
 @media (max-width: 420px) {}
 
-/* ========================================
-   ULTRA SMALL SCREENS (max-width: 376px)
-   ======================================== 
-   Reserved for future ultra small device adjustments
-   ======================================== */
 @media (max-width: 376px) {}
 
-/* ========================================
-   LARGE DESKTOP SCREENS (min-width: 1200px)
-   ======================================== 
-   Bootstrap's "xl" breakpoint - adjustments for large desktop screens
-   ======================================== */
 @media (min-width: 1200px) {
-  /* Container: set max width for large screens to maintain readability */
   .container {
     max-width: 1170px;
   }

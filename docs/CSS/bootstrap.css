@@ -3,20 +3,8 @@
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * ========================================
- * BOOTSTRAP 4.3.1 CSS FRAMEWORK
- * ======================================== 
- * This is the main Bootstrap CSS framework file.
- * It provides a responsive grid system, typography, forms, buttons,
- * tables, navigation, and many other pre-styled components.
- * It uses CSS custom properties (variables) and flexbox for layouts.
- * ======================================== 
  */
 :root {
-  /* ========================================
-     CSS CUSTOM PROPERTIES (VARIABLES)
-     ======================================== */
-  /* Define color palette: primary, secondary, and semantic colors */
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -30,8 +18,6 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-
-  /* Theme colors used throughout Bootstrap components */
   --primary: #007bff;
   --secondary: #6c757d;
   --success: #28a745;
@@ -40,35 +26,27 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
-
-  /* Responsive breakpoints for media queries */
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-
-  /* Font families used throughout the site */
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
 
-/* ========================================
-   UNIVERSAL BOX MODEL RESET
-   ======================================== */
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 html {
-/* ========================================
-   GLOBAL HTML DOCUMENT STYLES
-   ======================================== */-family: sans-serif;
+  font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-
-/* ========================================
-   SEMANTIC HTML5 ELEMENTS DISPLAY FIX
-   ======================================== */
+}
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
@@ -95,10 +73,7 @@ hr {
   overflow: visible;
 }
 
-
-/* ========================================
-   HEADING ELEMENTS (H1-H6)
-   ======================================== */
+h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
@@ -108,10 +83,8 @@ p {
   margin-bottom: 1rem;
 }
 
-
-/* ========================================
-   ABBREVIATION ELEMENT WITH TOOLTIP
-   ======================================== */
+abbr[title],
+abbr[data-original-title] {
   text-decoration: underline;
   -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
@@ -121,18 +94,12 @@ p {
   text-decoration-skip-ink: none;
 }
 
-
-/* ========================================
-   ADDRESS BLOCK ELEMENT
-   ======================================== */
+address {
   margin-bottom: 1rem;
   font-style: normal;
   line-height: inherit;
 }
 
-/* ========================================
-   LISTS (DL, DT, DD, OL, UL, LI)
-   ======================================== */
 ol,
 ul,
 dl {
@@ -161,10 +128,7 @@ blockquote {
 }
 
 b,
-
-/* ========================================
-   EMPHASIS ELEMENTS (STRONG, SMALL, ETC.)
-   ======================================== */
+strong {
   font-weight: bolder;
 }
 
@@ -216,10 +180,7 @@ a:not([href]):not([tabindex]):focus {
 pre,
 code,
 kbd,
-
-/* ========================================
-   CODE AND MONOSPACE ELEMENTS (CODE, KBD, SAMP)
-   ======================================== */
+samp {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 1em;
 }
@@ -339,10 +300,7 @@ textarea {
   resize: vertical;
 }
 
-
-/* ========================================
-   FIELDSET AND LEGEND (FORM GROUPING)
-   ======================================== */
+fieldset {
   min-width: 0;
   padding: 0;
   margin: 0;
@@ -408,10 +366,7 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.2;
 }
 
-
-/* ========================================
-   TYPOGRAPHY COMPONENT SIZING (H1-H6 CLASSES)
-   ======================================== */
+h1, .h1 {
   font-size: 2.5rem;
 }
 
@@ -440,10 +395,7 @@ h6, .h6 {
   font-weight: 300;
 }
 
-
-/* ========================================
-   DISPLAY HEADINGS (LARGER STYLISTIC HEADINGS)
-   ======================================== */
+.display-1 {
   font-size: 6rem;
   font-weight: 300;
   line-height: 1.2;
@@ -4847,10 +4799,7 @@ input[type="button"].btn-block {
   margin-bottom: -1px;
 }
 
-
-/* ========================================
-   BREADCRUMB NAVIGATION
-   ======================================== */
+.breadcrumb {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -4885,10 +4834,7 @@ input[type="button"].btn-block {
   color: #6c757d;
 }
 
-
-/* ========================================
-   PAGINATION (PAGE NAVIGATION)
-   ======================================== */
+.pagination {
   display: -ms-flexbox;
   display: flex;
   padding-left: 0;
@@ -5156,10 +5102,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   border-radius: 0;
 }
 
-
-/* ========================================
-   ALERTS (NOTIFICATION BOXES)
-   ======================================== */
+.alert {
   position: relative;
   padding: 0.75rem 1.25rem;
   margin-bottom: 1rem;
@@ -7971,10 +7914,7 @@ button.bg-dark:focus {
   background-color: rgba(0, 0, 0, 0);
 }
 
-
-/* ========================================
-   UTILITY CLASSES (SPACING, SIZING, ETC.)
-   ======================================== */
+.m-0 {
   margin: 0 !important;
 }
 
