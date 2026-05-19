@@ -7,7 +7,7 @@ This is our joint repository for our "Agile Projects" groupwork assignment.<br>
 
 ### Assignment Requirements:
 <!--Assignment 1 requirements screenshots-->
-> ![Iteration 1](images/iteration1.png)
+> ![Iteration 1](repoimages/iteration1.png)
 
 - *Personas*
 	- Personas:
@@ -27,7 +27,7 @@ This is our joint repository for our "Agile Projects" groupwork assignment.<br>
 ## Iteration 2
 
 ### Assignment Requirements
->![Iteration 2](images/iteration2.png)
+>![Iteration 2](repoimages/iteration2.png)
 <!--Assignment 2 requirements screenshots-->
 
 - *Minutes/meeting notes* 
@@ -40,7 +40,7 @@ This is our joint repository for our "Agile Projects" groupwork assignment.<br>
 
 ### Assignment Requirements
 
->![Iteration 3](images/iteration3.png)
+>![Iteration 3](repoimages/iteration3.png)
 <!--Assignment 3 requirements screenshots-->
 
 ---
