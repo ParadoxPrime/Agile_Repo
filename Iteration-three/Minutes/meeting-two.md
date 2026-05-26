@@ -20,12 +20,15 @@
 
 
 
-**Group Lead:** **Note taker:** **Attendees:** Kyle, Liam, Luke, Maraea
+**Note taker:** Maraea **Attendees:** Kyle, Liam, Maraea
 
 
 
 
-**Absent:** **Please bring:** Risk Register Excel Sheet
+**Absent:** 
+
+
+**Please bring:** Risk Register Excel Sheet
 
 ---
 
@@ -72,7 +75,7 @@ Liam has officially accepted the Role of Member 3, and Kyle has officially accep
 
 # Conclusion:
 
-For this meeting, we settled on member jobs and completed or nearly completed our website.
+For this meeting, we settled on which team member doing which files of the website.
 
 We will be deploying our webpages next class.
 
